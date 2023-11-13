@@ -1,0 +1,413 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Electrolize", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 100px 0;
+  background-color: #4380ae;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-title h2:hover {
+  background-color: orange;
+  color: #000;
+}
+
+.section-title h2 {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+header {
+  background-color: gray;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.nav_links {
+  display: flex;
+}
+
+.nav_links li a {
+  margin-left: 15px;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav_links li a:hover {
+  background-color: orange;
+  color: #000;
+}
+
+.paw{
+  display: none;
+  font-size: 25px;
+  color: #FFA500;
+}
+
+.logo h1 {
+  font-size: 40px;
+}
+
+.logo h1 a {
+  
+  color: #FFA500;
+  text-shadow: 1px 1px #000000;
+  text-wrap: nowrap;
+}
+
+/* anasayfa */
+
+.inner_anasayfa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px auto;
+  width: 80%;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.child_anasayfa {
+  flex-basis: 45%;
+}
+
+.child_anasayfa h1 {
+  font-size: 50px;
+  color: rgb(48, 41, 41);
+}
+
+.child_anasayfa p {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: rgb(48, 41, 41);
+}
+
+.span_child {
+  color: orange;
+}
+
+.btn {
+  margin: 10px;
+  padding: 12px 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: gray;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: #000;
+  transform: scale(1.1);
+}
+
+/* software */
+
+.inner_software {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px;
+  color: #fff;
+}
+
+.inner_software_child {
+  flex-basis: 31%;
+  padding: 25px 20px;
+  background-color: #6f6f6f;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.inner_software_child:hover {
+  border: 2px solid orange;
+}
+
+.inner_software_child i {
+  font-size: 25px;
+  color: orange;
+}
+
+.inner_software_child h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+/* sertifikalarım */
+
+.inner_courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.child_courses {
+  flex-basis: 24%;
+  color: #000;
+  padding: 20px 10px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.child_courses:hover {
+  border: 2px solid orange;
+}
+
+.child_courses .detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.child_courses .detail ul {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+
+.child_courses .detail ul li {
+  color: orange;
+}
+
+.child_courses .course_img {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+ 
+}
+
+.child_courses .detail ul li {
+  color: orange;
+}
+
+/* BAŞARILAR */
+
+.inner_success {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.child_success {
+  flex-basis: 40%;
+}
+
+.child_success img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.child_success2 {
+  flex-basis: 46%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.single_detail{
+    flex-basis: 48%;
+    padding: 40px 30px;
+    color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.single_detail:hover{
+    transform: scale(1);
+}
+
+.sd-1{
+    background-color: rgb(237, 168, 41);
+    margin-bottom: 20px;
+}
+
+.sd-2{
+    background-color: rgb(70, 70, 156);
+    margin-bottom: 20px;
+}
+
+.sd-3{
+    background-color: rgb(182, 80, 80);
+    margin-bottom: 20px;
+}
+
+.sd-4{
+    background-color: rgb(90, 171, 90);
+    margin-bottom: 20px;
+}
+
+/* referanslar */
+
+
+.referans_content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.referans_content_item p{
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.referans_content .referans_content_item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.referans_content_item img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.referans_content_item span{
+    color: #fff;
+}
+
+.referans_content_item .black{
+    color: #000;
+}
+
+/* iletişim */
+
+.iletisim_content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child_content{
+    flex-basis: 45%;
+}
+
+.child_content form{
+    padding: 50px 40px;
+    background-color: #6f6f6f;
+    border-radius: 5px;
+}
+
+.child_content form input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #aaa8a8;
+    
+    border: 1px solid transparent;
+    border-radius: 15px;
+    transition: .3s ease-in;
+    outline: none;
+    color: #fff;
+
+}
+
+.child_content form input:focus{
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+}
+
+.child_content form textarea:focus{
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+
+}
+
+.btn2{
+    border: none;
+    background-color: gray;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn2:hover {
+    background-color: orange;
+    color: #000;
+    transform: scale(0.9);
+  }
+
+
+
+
+  address{
+    padding: 15px;
+    text-align: center;
+    background-color: #6f6f6f;
+    color: #fff;
+  }
+
+  address a{
+    color: #FFA500;
+  }
+  
+  @media (max-width: 610px)
+  {
+    .paw {
+      display: block;
+    }
+
+    .nav_links{
+      display: none;
+    }
+  }
+  
